@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,41 +8,69 @@
     <meta http-equiv="Pragma" content="no-cache">
     <meta http-equiv="Expires" content="0">
     <title>Portafolio - Inicio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
 </head>
+
 <body>
-    <header>
-        <h1>Inicio</h1>
+    <header class="header">
+        <div class="container flex justify-between">
+            <div class="img-logo-container">
+                <a href="./"><img class="img-logo" src="./img/logo-puro-green.png" alt="Logo"></a>
+            </div>
+            <nav class="navbar">
+                <ul>
+                    <li class="active"><span>Inicio</span></li>
+                    <li><a href="./about.html">Sobre Mí</a></li>
+                    <li><a href="./services.html">Servicios</a></li>
+                    <li><a href="./projects.html">Proyectos</a></li>
+                    <li><a href="./contact.html">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
-    <nav>
-        <ul>
-            <li>Inicio</li>
-            <li><a href="about.html">Sobre Mí</a></li>
-            <li><a href="portfolio.html">Portafolio</a></li>
-            <li><a href="cv.html">Curriculum</a></li>
-            <li><a href="services.html">Servicios</a></li>
-            <li><a href="skills.html">Habilidades</a></li>
-            <li><a href="contact.html">Contacto</a></li>
-        </ul>
-    </nav>
+
     <main>
         <section>
-            <h2>Presentación</h2>
-            <img width="300" src="img/matias.jpeg">
-            <p>Soy Matías Nicolás Purita, un desarrollador web con más de 10 años de experiencia en la creación de soluciones innovadoras y eficientes. Mi pasión es convertir ideas en aplicaciones funcionales utilizando tecnologías modernas como React, Node.js, y más.</p>
+            <div class="container">
+
+                
+                    <p class="principal-text"><span class="accent-color">Hola, soy Matias Purita!</span> Ayudo a
+                        empresas a resolver sus desafíos tecnológicos con soluciones a medida.</p>
+                    <p class="secondary-text">Cuento con más de 10 años de experiencia desarrollando software eficiente
+                        que impulsa tu negocio y cumple con tus necesidades.</p>
+                    <div class="flex m-t-30">
+                        <a class="btn btn-primary m-r-20" href="contact.html">Hablemos</a>
+                        <a href="#" class="btn btn-secondary">Conocer más</a>
+                    </div>
+
+                
+
+            </div>
         </section>
-        <section>
-            <h2>Aspectos relevantes</h2>
-            <p>
-                He trabajado en instituciones gubernamentales, universidades, y empresas privadas, aportando mi conocimiento en proyectos de alto impacto y liderando equipos de desarrollo. Actualmente, soy Director IT en Godevs, donde combino mis habilidades técnicas con mi capacidad de gestión.
+        <section class="m-t-70">
+            <div class="container">
+            <p class="medium-text">
+                Soy Matías Nicolás Purita, un desarrollador web con más de 10 años de experiencia en la creación de soluciones innovadoras y eficientes. Mi pasión es convertir ideas en aplicaciones funcionales utilizando tecnologías modernas como React, Node.js, y más.
             </p>
+        </div>
         </section>
         <section>
-            <h2>Resumen</h2>
-            <p>Soy un desarrollador web orientado a resultados, especializado en tecnologías frontend y backend. Ofrezco soluciones personalizadas que se adaptan a las necesidades del cliente, con un enfoque en la calidad, la eficiencia y la innovación.</p>
+            <div class="container">
+                <div class="m-t-30">
+               <h3 class="primary-thematic-title">Un poco de mi trayectoria..</h3>
+               <p>He trabajado en instituciones gubernamentales, universidades, y empresas privadas, aportando mi conocimiento en proyectos de alto impacto y liderando equipos de desarrollo. Actualmente, soy Director IT en Godevs, donde combino mis habilidades técnicas con mi capacidad de gestión.</p>
+            </div>
+            <div class="m-t-30">
+               <h3 class="primary-thematic-title">Lo más importante es ofrecerte la mejor solución, comunicarnos efectivamente es primordial.</h3>
+               <p>Soy un desarrollador web orientado a resultados, especializado en tecnologías frontend y backend. Ofrezco soluciones personalizadas que se adaptan a las necesidades del cliente, con un enfoque en la calidad, la eficiencia y la innovación</p>
+            </div>
+            </div>
 
         </section>
 
-            </main>
-    
+    </main>
+
 </body>
+
 </html>
