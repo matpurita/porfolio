@@ -243,4 +243,83 @@ body {
 
 }
 
+footer {
+  background-color: #f1f1f1;
+  padding: 10px;
+  text-align: center;
+  margin-top: 70px;
+}
+
+.container {
+  max-width: 1140px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.footer-dark {
+  background-color: #343a40; /* Color oscuro similar a bg-dark de Bootstrap */
+  color: #fff; /* Texto blanco */
+  padding: 3rem 0; /* Padding vertical */
+  text-align: center;
+}
+
+.container {
+  max-width: 1140px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.footer-flex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-text {
+  flex: 5 1 300px;
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-text-row {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-bottom: 1.5rem;
+}
+
+.footer-text-row p {
+  flex:1 1;
+}
+
+.footer-col {
+  margin-right: 1rem;
+}
+
+
+.footer-logo {
+  flex: 1 1 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+}
+
+.img-logo-container {
+  max-width:150px
+}
+
+@media screen and (max-width: 768px) {
+  .footer-text {
+    flex-direction: column-reverse;
+  }
+  
+}
+
+
 
